@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>task30</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style type="text/css">
+		.bg-main{
+			background-color:rgb(51,102,255);
+			height: 1063px;
+			width: 100%;
+			margin-top:00px;
+			margin-bottom: 0px;
+		}
+		nav{
+			background-color: white;
+			width: 100%;
+			height: 40px;
+			margin-bottom:-100px;
+			margin-left: 0px;
+		}
+			span{
+				margin-left: 400px;
+							}
+		nav span a{
+				list-style:none;
+				display: inline-block;
+				padding:1%;
+				color:black;
+				font-size:15px;
+				cursor:pointer;
+				text-decoration:none;
+			}
+			nav span a:hover{
+				background-color:none;
+				color:red;
+				transition: 0.5s ease;
+			}
+			
+		.main{
+			background-image: url(https://images.pexels.com/photos/547557/pexels-photo-547557.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+			height: 600px;
+			width: 93%;
+			margin-left: 50px;
+			margin-top: 000px;
+			background-size:cover;
+			background-position:center;
+			box-shadow:  1px 1px 10px 0px black;
+		}
+		.secondmain{
+			background-color:blue;
+			height: 1680px;
+			width: 93%;
+			margin-left: 50px;
+			box-shadow:  1px 1px 10px 0px black;
+		}
+		.about{
+			background-color: white;
+			height: 400px;
+			width: 100%;
+			margin-top:-50px;
+			box-shadow:  1px 1px 10px 0px black;
+
+		}
+		.text{
+			height: 300px;
+			width: 40%;
+			font-size: 20px;
+			text-align: center;
+			margin-left: 20px;
+			margin-top:1-100px;
+		
+		}
+		.text img{
+			height: 200px;
+			width: 300px;
+			margin-top:-100px;
+			margin-left: 800px;
+		}
+		.service{
+			background-color:black;
+			height: 600px;
+			width: 100%;
+			margin-top: -20px;
+			box-shadow:  1px 1px 10px 0px black;
+
+
+		}
+		.service-text{
+			background-color:black;
+			height: 475px;
+			width: 50%;
+			margin-top: -20px;
+
+		}
+		.service-image{
+			background-image: url(https://images.pexels.com/photos/6384/woman-hand-desk-office.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+			height: 550px;
+			width: 44.5%;
+			margin-top: -475px;
+			margin-left: 750px;
+			background-size: contain;
+			background-repeat: no-repeat;
+
+		}
+		#portfolio{
+			margin-top: -21px;
+				height: 70px;
+				width: 100%;
+			background-color:rgb(51,102,255);
+			box-shadow:  1px 1px 10px 0px black;
+			}
+			.portfolio{
+				height: 630px;
+				width: 100%;
+				background-color: rgb(217, 217, 217);
+
+			}
+			.portfolio h3{
+				margin-top: -4px;
+			}
+			.p1{
+				height: 300px;
+				width: 300px;
+				margin-top: 0px;
+				margin-left: 40px;
+			}
+			.p2{
+				height: 300px;
+				width: 300px;
+				margin-top: -300px;
+				margin-left: 490px;
+			}
+			.p3{
+				height: 300px;
+				width: 300px;
+				margin-top: -300px;
+				margin-left:990px;
+
+			}
+			.p4{
+				height: 300px;
+				width: 300px;
+				margin-top: 20px;
+				margin-left: 40px;
+
+			}
+			.p5{
+				height: 300px;
+				width: 300px;
+				margin-top: -300px;
+				margin-left: 490px;
+
+			}
+			.p6{
+				height: 300px;
+				width: 300px;
+				margin-top: -300px;
+				margin-left:990px;
+
+			}
+			.portfolio .fa {
+			  font-size: 50px;
+			  width:75px;
+			  height: 75px;
+			  text-align:center;
+			  margin-top: 10px;
+			  border-radius: 50%;
+
+			}
+			.portfolio .fa:hover {
+			  opacity: 1;
+               cursor:pointer;
+               background-color:rgb(51,102,255);
+               color: white;
+			}
+			.fa-code{
+
+ 				 color:rgb(51,102,255);
+			}
+
+			.fa-laptop
+			{ color:rgb(51,102,255);
+
+			}
+			.fa-mobile{
+				color:rgb(51,102,255);
+			}
+			.fa-ravelry{
+				 color:rgb(51,102,255);
+			}
+			.fa-address-card{
+				 color:rgb(51,102,255);
+			}
+			.fa-american-sign-language-interpreting{
+				 color:rgb(51,102,255);
+			}
+			#contact{
+				height: 50;
+				width: 100%;
+				margin-top:-30px;
+				background-color:; 
+			}
+			.foot{
+				height: 500px;
+				width: 100%;
+				margin-top: -30px;
+				background-image: url(https://images.pexels.com/photos/776615/pexels-photo-776615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+				background-size: cover;
+				background-position: center;
+				opacity: .8;
+			}
+			.foot h4{
+					font-size: 30px;
+					margin-top: -10px;
+					text-align: center;
+			}
+			.foot span{
+				font-size: 20px;
+				color:black;
+				text-align: center;
+				margin-left:px;
+			}
+			.comment{
+				margin-left: 200px;
+				
+			}
+	</style>
+</head>
+<body>
+	<div class="bg-main">
+		<div class="main">
+			<nav>
+				<a href=""></a>
+
+		 <a href="task30.html"><img style="height:25px;width:25px; margin-left: 50px; text-decoration: none;list-style:none;" src="https://www.pngfind.com/pngs/m/451-4513949_circular-logo-ndash-dorota-heidels-portfolio-circular-logo.png"></a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span>
+			  <a href="task30.html">HOME</a>
+			  <a href="#about">ABOUT US</a>
+			  <a href="#service">SERVICE</a>
+			   <a href="#portfolio">PORTFOLIO</a>
+			  <a href="#work">OUR WORK</a>
+			   <a href="#">BLOG</a>
+			  <a href="#contact">CONTACT</a>
+			  <a href="#"><i class="fa fa-shopping-cart fa-1x" aria-hidden="true"></i></a>
+			  <a href="#"><i class="fa fa-search fa-1x" aria-hidden="true"></i></a>
+
+			</span>
+		</nav>
+			<h2 style="margin-top: 300px;color: white;font-size: 40px; text-align: center; ">is something is not happening for you, it doesn't <br> mean It's never going to happen</h2>
+			<br><br><br>
+			<button style="background-color:rgb(51,102,255);margin-left: 600px;">SEE MORE</button>
+			<button style="color:rgb(51,102,255); ">GET MORE</button>
+		</div>	
+		<div class="secondmain">
+			<div class="about" id="about">
+				<h1  style="text-align: center;font-size: 50px;">Who We Are</h1>
+				<div class="text">
+					<p >
+					A business plan is a formal written document containing business goals, the methods on how these goals can be attained, and the time frame within which these goals need to be achieved. <br> It also describes the nature of the business, background information on the organization.</p><br>
+					
+				
+				
+					<img src="https://www.pngkit.com/png/detail/443-4437837_responsive-images-laptop-tablet-smartphone-png.png">
+					<button style="background-color:rgb(51,102,255);margin-left:-50px;">Read more</button>
+				</div>
+			</div>
+			<div class="service"  id="service">
+				<center>
+					<h2 style="color: white;font-size: 40px;margin-left: 0px; margin-top: 0px;" >  <br>Our Great Advantages</h2>
+					<p style="color: white;margin-top: -30px; margin-left: 80px; ">We Create amazing Websites for all purpose..</p>
+				
+					
+				</center>
+				<section class="service-text">
+					
+					<p style="color: white;margin-top: 30px; margin-left: 100px;">
+						I design the websites beautiful and attractive according to your needs and bussinesses.<br> I also design sites according to purpose and theme of project.
+
+						<br>
+						I design beautiful digital invitation for your auspicious events to make it memorable for you and your guests.<br> I include Location Route Map that guide your guests to reach the veneue on time wherever it is!.
+						<br>
+						I design the websites which are responsive. It means that support different types and size of devices.</p>
+						<ul style="color: white;font-size: 15px;margin-left: 70px;">
+							<li>WEB DEVELOPMENT</li>
+							<li>RRESPONSIVE DESIGN</li>
+							<li>WEB DESIGN</li>
+							<li>DIGITAL CARD</li>
+							<li>SOFTWARE DEVELOPMENT</li>
+							<li>SEO</li>
+						</ul>
+						<br><br><br>
+						<button style="background-color: blue;color: white;margin-left: 90px;">READ MORE</button>
+				</section>
+					
+				<section class="service-image">
+					
+				</section>
+					</div>
+					<div  id="portfolio" >
+							<h1  style="text-align: center;color: white; margin-bottom:-30px;">What We Can Offer For You</h1>
+					</div>
+						<div class="portfolio">
+							<div class="p1">
+								<center>
+									<br><br>
+									<a href="#"><i class="fa fa-code fa-4x" aria-hidden="true"></i></a>
+									<h3>WEB DEVELOPMENT</h3>
+									<p> We develop wesite to match you business.</p>
+								</center>
+							</div>
+							<div class="p2">
+								<center>
+						
+									<br><br>
+									<a href="#"><i class="fa fa-laptop fa-4x" aria-hidden="true"></i></a>
+									<h3>SOFTWARE DEVELOPMENT</h3>
+									<p>I develop dynamic software to quench your needs and businesses. I also provide services of auditing and maintenance for software.</p>
+								</center>
+							</div>
+							
+							<div class="p3">
+								<center>
+									<br><br>
+									<a href="#"><i class="fa fa-mobile fa-4x " aria-hidden="true"></i></a>
+									<h3>RESPONSIVE DESIGN</h3>
+									<p>I design the websites which are responsive. It means that support different types and size of devices.</p>
+								</center>
+							</div>
+
+							<div class="p4">
+								<center>
+									<br><br>
+									<a href="#"><i class="fa fa-ravelry fa-4x" aria-hidden="true"></i></a>
+									<h3>WEB DESIGN</h3>
+									<p> I design the websites beautiful and attractive according to your needs and bussinesses. I also design sites according to purpose and theme of project.</p>
+								</center>
+							</div>
+
+							<div class="p5">
+								<center>
+									<br><br>
+									<a href="#"><i class="fa fa-address-card fa-4x" aria-hidden="true"></i></a>
+									<h3>DIGITAL CARD</h3>
+									<p>I design beautiful digital invitation for your auspicious events to make it memorable for you and your guests. I include Location Route Map that guide your guests to reach the veneue on time wherever it is!.</p>
+								</center>
+							</div>
+
+							<div class="p6">
+								<center>
+									<br><br>
+									<a href="#"><i class="fa fa-american-sign-language-interpreting fa-4x" aria-hidden="true"></i></a>
+									<h3>SEO</h3>
+									<p>SEO is an acronym that stands for search engine optimization, which is the process of optimizing your website to get organic, or un-paid, traffic from the search engine results page. ... In order to do this, search engines will scan, or crawl, different websites to better understand what the site is about.</p>
+								</center>
+							</div>
+
+						</div>
+						<div id="contact">
+							<h2 style="text-align: center;; font-size: 40px; background-color: rgb(51,102,255);">Contact</h2>
+							
+						</div>
+						<div class="contact">
+								<footer class="foot"><h4>Word Hard & Gain More</h4>
+									<div class="comment">
+										
+									
+									
+										<span style="color: rgb(51,102,255);" >CEO|FOUNDER</span>
+										<SPAN></SPAN>
+										<br><br>
+
+										<span>SAWAN KUMAR</span>
+										<span></span>
+										<span>sa.one241@gmail.com</span><span></span>
+										<span>7050685253</span>
+										
+									
+									</div>
+								</footer>				
+
+						</div>
+		</div>
+		</div>
+		</div>
+
+</body>
+</html>
